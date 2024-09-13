@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmathis <dmathis@student.42.fr>            +#+  +:+       +#+        */
+/*   By: mblanc <mblanc@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 18:02:35 by dmathis           #+#    #+#             */
-/*   Updated: 2024/09/13 16:53:49 by dmathis          ###   ########.fr       */
+/*   Updated: 2024/09/13 17:02:31 by mblanc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,6 +65,6 @@ int	ft_printf(const char *format, ...)
 
 int	main(void)
 {
-	ft_printf("Hello, \n");
+	ft_printf("Bonjour \n");
 	return (0);
 }
