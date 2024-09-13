@@ -6,7 +6,7 @@
 /*   By: dmathis <dmathis@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 18:02:35 by dmathis           #+#    #+#             */
-/*   Updated: 2024/05/31 14:47:56 by dmathis          ###   ########.fr       */
+/*   Updated: 2024/09/13 16:53:49 by dmathis          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,4 +61,10 @@ int	ft_printf(const char *format, ...)
 	}
 	va_end(ap);
 	return (count);
+}
+
+int	main(void)
+{
+	ft_printf("Hello, \n");
+	return (0);
 }
